@@ -1,2 +1,2 @@
 # tictactoe
-A simple TicTacToe game using JS
+A simple TicTacToe game made using JS
