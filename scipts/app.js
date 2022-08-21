@@ -61,6 +61,8 @@ restartGameBtnElement.addEventListener("click", restartGame);
 
 const themeToggleBtn = document.querySelector(".theme-toggler");
 const body = document.querySelector(".body");
+const modal = document.querySelector(".modal");
+const turn = document.querySelector(".turn");
 const toggleIcon = document.querySelector(".toggler-icon");
 
 
@@ -68,6 +70,8 @@ const isDark = true;
 
 themeToggleBtn.onclick = () => {  
   body.classList.toggle("dark");
+  modal.classList.toggle("dark");
+  turn.classList.toggle("dark");
   themeToggleBtn.classList.toggle("active");
   isDark = !isDark;
 };
