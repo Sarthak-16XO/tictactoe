@@ -59,3 +59,15 @@ for (const gameFieldElement of gameFieldElements) {
 restartGameBtnElement.addEventListener("click", restartGame);
 
 
+const themeToggleBtn = document.querySelector(".theme-toggler");
+const body = document.querySelector(".body");
+const toggleIcon = document.querySelector(".toggler-icon");
+
+
+const isDark = true;
+
+themeToggleBtn.onclick = () => {  
+  body.classList.toggle("dark");
+  themeToggleBtn.classList.toggle("active");
+  isDark = !isDark;
+};
