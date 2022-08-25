@@ -29,7 +29,6 @@ const gameStartErrorElement = document.getElementById("game-start-error");
 const activePlayerNameElement = document.getElementById("active-player-name");
 const gameOverElement  = document.getElementById("game-over");
 
-
 // All Button Elements
 const editPlayer1Element = document.getElementById("edit-player-1");
 const editPlayer2Element = document.getElementById("edit-player-2");
@@ -37,7 +36,6 @@ const cancelConfigButtonElement = document.getElementById("cancel-config");
 const startNewGameBtnElement = document.getElementById("start-game-btn");
 const gameFieldElements = document.querySelectorAll("#game-board li");
 const restartGameBtnElement = document.getElementById("restart-game-btn");
-
 
 // Event Listners
 editPlayer1Element.addEventListener("click", openPlayerConfig);
@@ -65,7 +63,7 @@ const modal = document.querySelector(".modal");
 const turn = document.querySelector(".turn");
 const toggleIcon = document.querySelector(".toggler-icon");
 
-
+//For Toggling between dark and light mode
 const isDark = true;
 
 themeToggleBtn.onclick = () => {  
